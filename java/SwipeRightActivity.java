@@ -93,7 +93,7 @@ public class SwipeRightActivity extends AppCompatActivity {
         return false;
     }
     private void getWeatherInfo(String city){
-        String url = "https://api.weatherapi.com/v1/forecast.json?key=4f35a0596d8c451b90b135624222806 &q="+city+"&days=2&aqi=yes&alerts=yes";
+        String url = "https://api.weatherapi.com/v1/forecast.json?key=4f3562hw96d8c451637b1356263he822806 &q="+city+"&days=2&aqi=yes&alerts=yes";
         RequestQueue requestQueue = Volley.newRequestQueue(SwipeRightActivity.this);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
