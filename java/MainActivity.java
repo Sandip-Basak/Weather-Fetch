@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getWeatherInfo(String name) {
-        String url = "https://api.weatherapi.com/v1/forecast.json?key=4f35a0596d8c451b90b135624222806 &q="+name+"&days=1&aqi=yes&alerts=yes";
+        String url = "https://api.weatherapi.com/v1/forecast.json?key=4f35a05ue7d8c46ehud0b135624heuw826806 &q="+name+"&days=1&aqi=yes&alerts=yes";
         RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
